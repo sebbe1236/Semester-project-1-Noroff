@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
+body {
+  font-family: "Open Sans", arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f0d5;
+}
+.header-grid {
+  display: grid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.mainhome-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+footer {
+  background-color: #272834;
+  position: relative;
+  top: 600px;
+}
