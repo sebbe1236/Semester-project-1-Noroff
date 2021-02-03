@@ -16,12 +16,19 @@ header {
 }
 .header-grid {
   display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+}
+.item-a {
+  align-self: start;
+}
+.item-b {
+  align-self: center;
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
 }
 .mainhome-grid {
   display: grid;
