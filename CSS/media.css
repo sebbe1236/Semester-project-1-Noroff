@@ -29,4 +29,8 @@
   .item-a {
     align-self: center;
   }
+  .footermain-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
