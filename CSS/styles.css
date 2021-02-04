@@ -26,10 +26,11 @@ header {
   align-self: center;
 }
 
-nav {
+nav ul {
   display: flex;
   justify-content: space-evenly;
 }
+
 .mainhome-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -39,16 +40,19 @@ nav {
 footer {
   background-color: #272834;
   position: absolute;
-
-  margin-bottom: 0;
   bottom: 0;
   width: 100%;
 }
 footer p {
   color: white;
+  padding: 10px;
 }
 .footermain-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
+  justify-items: center;
+}
+
+@media (max-width: 800px) {
 }
