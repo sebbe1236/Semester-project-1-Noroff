@@ -1,9 +1,15 @@
 @media (max-width: 800px) {
-  .nav a {
-    display: none;
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
   }
-  .nav li {
-    display: none;
+  nav a:hover {
+    font-weight: bold;
+  }
+  nav li {
+    display: block;
   }
   .hamburger-label {
     float: right;
