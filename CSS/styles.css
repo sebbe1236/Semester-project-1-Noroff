@@ -30,6 +30,22 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
 }
+nav li {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+}
+
 #hamburger-menu {
   display: none;
 }
@@ -57,7 +73,4 @@ footer p {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   justify-items: center;
-}
-
-@media (max-width: 800px) {
 }
