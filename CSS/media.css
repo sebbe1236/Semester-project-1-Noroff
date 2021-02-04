@@ -1,2 +1,22 @@
 @media (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav li {
+    display: none;
+  }
+  .hamburger-label {
+    float: right;
+    color: black;
+    padding: 10px;
+    font-size: 1.5em;
+    display: block;
+  }
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+  .header-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }

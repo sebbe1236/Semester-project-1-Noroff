@@ -31,6 +31,12 @@ nav ul {
   justify-content: space-evenly;
 }
 
+#hamburger-menu {
+  display: none;
+}
+.hamburger-label {
+  display: none;
+}
 .mainhome-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
