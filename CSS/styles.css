@@ -19,13 +19,12 @@ header {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: auto;
 }
-.item-a {
+.logo {
   align-self: start;
 }
-.item-b {
+.desktop-nav {
   align-self: center;
 }
-
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -38,16 +37,14 @@ nav a {
   text-decoration: none;
   color: black;
 }
-
+#hamburger-menu {
+  display: none;
+}
 nav a:hover {
   font-weight: bold;
 }
 ul {
   list-style-type: none;
-}
-
-#hamburger-menu {
-  display: none;
 }
 .hamburger-label {
   display: none;
