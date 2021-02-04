@@ -35,8 +35,20 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
+
 footer {
   background-color: #272834;
-  position: relative;
-  top: 600px;
+  position: absolute;
+
+  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  color: white;
+}
+.footermain-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
 }
