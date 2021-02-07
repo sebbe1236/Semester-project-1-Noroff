@@ -1,11 +1,13 @@
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   nav a {
     text-decoration: none;
     color: black;
     padding: 10px;
     display: block;
   }
-
+  h1 {
+    text-align: center;
+  }
   nav a:hover {
     font-weight: bold;
   }
@@ -13,7 +15,6 @@
     display: none;
   }
   .hamburger-label {
-    float: right;
     color: black;
     padding: 10px;
     font-size: 1.5em;
@@ -22,6 +23,7 @@
   #hamburger-menu:checked ~ nav {
     display: block;
   }
+
   .header-grid {
     display: flex;
     flex-direction: column;
@@ -32,5 +34,16 @@
   .footermain-grid {
     display: flex;
     flex-direction: column;
+  }
+  .mainhome-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainpage-article {
+    display: flex;
+    flex-direction: column;
+  }
+  .footermain-grid {
+    display: flex;
   }
 }
