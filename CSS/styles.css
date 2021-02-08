@@ -52,7 +52,7 @@ ul {
 
 footer {
   background-color: #272834;
-  margin: 0px;
+  margin: 0;
   width: 100%;
 }
 footer p {
@@ -81,4 +81,20 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   justify-items: center;
+}
+
+/*explore page 2*/
+
+.explore-maingrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(150px, auto);
+  grid-gap: 50px;
+  padding: 15px;
+}
+
+.explore-container h3,
+img,
+p {
+  padding: 10px;
 }
