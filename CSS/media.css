@@ -56,4 +56,16 @@
     display: flex;
     flex-direction: column;
   }
+  .explorefooter-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*media flex for exhibitons page because of bigger pictures.*/
+@media (max-width: 1230px) {
+  .exhibitions-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }

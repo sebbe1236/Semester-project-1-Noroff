@@ -76,6 +76,12 @@ h1 {
   font-style: italic;
   padding: 20px;
 }
+
+.frontpage-img1,
+.frontpage-img2 {
+  border-radius: 20px;
+}
+
 .footermain-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -97,4 +103,24 @@ h1 {
 img,
 p {
   padding: 10px;
+  border-radius: 20px;
+}
+
+.explorefooter-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+/*exhibition*/
+
+.exhibitions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(150px, auto);
+  grid-gap: 15px;
+}
+
+.exhibitions-grid div,
+p {
+  padding: 5px;
 }
