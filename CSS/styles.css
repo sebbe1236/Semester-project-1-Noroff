@@ -58,7 +58,9 @@ ul {
   text-align: center;
   box-shadow: none;
 }
-
+.searchbar input:hover {
+  background-color: lightblue;
+}
 form i {
   position: absolute;
   padding: 10px;
