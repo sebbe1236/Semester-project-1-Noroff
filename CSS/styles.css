@@ -46,6 +46,23 @@ nav a:hover {
 ul {
   list-style-type: none;
 }
+.searchbar {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  align-self: flex-end;
+  padding: 10px;
+}
+.searchbar input {
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: none;
+}
+
+form i {
+  position: absolute;
+  padding: 10px;
+}
 .hamburger-label {
   display: none;
 }
@@ -53,6 +70,7 @@ ul {
 footer {
   background-color: #272834;
   margin: 0;
+  padding: 40px;
   width: 100%;
 }
 footer p {
