@@ -106,6 +106,7 @@ h1 {
 .frontpage-img1,
 .frontpage-img2 {
   border-radius: 20px;
+  max-width: 100%;
 }
 
 .footermain-grid {
@@ -115,6 +116,10 @@ h1 {
   justify-items: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 /*explore page 2*/
 
 .explore-maingrid {
@@ -157,8 +162,12 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(150px, auto);
+  grid-gap: 10px;
 }
-
+.eventspage-grid p,
+h3 {
+  padding: 10px;
+}
 .eventsfooter-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
