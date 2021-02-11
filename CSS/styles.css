@@ -4,6 +4,12 @@
 }
 body {
   font-family: "Open Sans", arial, sans-serif;
+  min-height: 100%;
+  display: grid;
+}
+
+html {
+  height: 100%;
 }
 * {
   box-sizing: border-box;
@@ -71,8 +77,8 @@ form i {
 
 footer {
   background-color: #272834;
-  margin: 0;
-  padding: 40px;
+  margin: 0px;
+
   width: 100%;
 }
 footer p {
@@ -143,4 +149,17 @@ p {
 .exhibitions-grid div,
 p {
   padding: 5px;
+}
+
+/*events page grid and css*/
+
+.eventspage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(150px, auto);
+}
+
+.eventsfooter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
