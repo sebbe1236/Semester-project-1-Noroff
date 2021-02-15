@@ -35,6 +35,10 @@
   .logo {
     align-self: center;
   }
+
+  header a {
+    align-self: center;
+  }
   .footermain-grid {
     display: flex;
     flex-direction: column;
