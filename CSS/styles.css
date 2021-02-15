@@ -173,3 +173,18 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+/*get involved page*/
+
+.getinvolved-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: minmax(200px, auto);
+  grid-gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.support-content {
+  align-self: end;
+}
