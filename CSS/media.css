@@ -39,6 +39,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  footer ul {
+    padding: 10px;
+  }
   .mainhome-grid {
     display: flex;
     flex-direction: column;
