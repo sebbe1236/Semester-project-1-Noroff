@@ -128,7 +128,7 @@ img {
 
 .explore-maingrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(150px, auto);
   grid-gap: 50px;
   padding: 15px;
