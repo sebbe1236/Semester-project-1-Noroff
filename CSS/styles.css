@@ -195,3 +195,14 @@ h3 {
 .support-content {
   align-self: end;
 }
+
+/*nav location*/
+
+.onpage {
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px black;
+}
+
+.offpage {
+  text-decoration: none;
+}
