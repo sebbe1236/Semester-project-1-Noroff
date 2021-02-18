@@ -65,7 +65,9 @@ ul {
   box-shadow: none;
 }
 .searchbar input:hover {
-  background-color: lightblue;
+  transition-property: background;
+  transition-duration: 1s;
+  background: lightblue;
 }
 form i {
   position: absolute;
@@ -182,7 +184,7 @@ h3 {
 
 .getinvolved-grid {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: minmax(200px, auto);
   grid-gap: 20px;
   justify-content: space-between;
@@ -199,7 +201,7 @@ h3 {
 /*nav location*/
 
 .onpage {
-  text-decoration: underline;
+  text-decoration-thickness: 1px;
   text-shadow: 1px 1px 1px black;
 }
 
