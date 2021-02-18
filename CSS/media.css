@@ -54,17 +54,16 @@
     display: flex;
     flex-direction: column;
   }
-  .searchbar {
-    display: flex;
-    flex-direction: row;
+  div {
+    width: 100%;
   }
 
-  input {
+  .searchbar input {
     width: 200px;
     height: 39px;
     transition: width 2s ease-out;
   }
-  input:hover {
+  .searchbar input:focus {
     width: 100%;
   }
   footer ul {
