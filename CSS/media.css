@@ -60,6 +60,9 @@
     width: 100%;
   }
 
+  .searchbar {
+    text-align: center;
+  }
   .searchbar input {
     width: 200px;
     height: 39px;
