@@ -84,7 +84,6 @@ footer ul {
 footer {
   background-color: #272834;
   margin: 0px;
-
   width: 100%;
 }
 footer p {
@@ -184,7 +183,7 @@ h3 {
 .getinvolved-grid {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-template-rows: minmax(200px, auto);
+  grid-template-rows: repeat(3, auto);
   grid-gap: 20px;
   justify-content: space-between;
   padding: 20px;
@@ -193,8 +192,12 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
+.picture-2 {
+  grid-area: left;
+}
 .support-content {
-  align-self: end;
+  grid-column: span 2;
+  justify-content: space-evenly;
 }
 
 /*nav location*/
