@@ -93,12 +93,11 @@ footer p {
 .mainhome-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(300px, 1fr);
+  grid-template-rows: minmax(250px, auto);
   margin: 20px;
+  padding: 10px;
+  grid-gap: 20px;
   justify-items: center;
-}
-.mainpage-article {
-  grid-column: span 2;
 }
 
 h1 {
@@ -191,13 +190,6 @@ h3 {
 .getinvolved-footer {
   display: grid;
   grid-template-columns: 1fr 4fr;
-}
-.picture-2 {
-  grid-area: left;
-}
-.support-content {
-  grid-column: span 2;
-  justify-content: space-evenly;
 }
 
 /*nav location*/
