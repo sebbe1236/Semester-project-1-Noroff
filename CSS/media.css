@@ -51,10 +51,18 @@
     width: 200px;
     height: 200px;
   }
-
   .footermain-grid {
     display: flex;
     flex-direction: column;
+  }
+  .footermain-grid div,
+  .explorefooter-grid,
+  .eventsfooter-grid,
+  .getinvolved-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
   }
   div {
     width: 100%;
@@ -91,10 +99,12 @@
     display: flex;
     flex-direction: column;
   }
+
   .explorefooter-grid {
     display: flex;
     flex-direction: column;
   }
+
   .exhibitions-grid {
     display: flex;
     flex-direction: column;
@@ -106,10 +116,7 @@
   .eventspage-grid div {
     padding: 20px;
   }
-  .eventsfooter-grid {
-    display: flex;
-    flex-direction: column;
-  }
+
   .getinvolved-grid {
     display: flex;
     flex-direction: column;

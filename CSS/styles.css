@@ -88,7 +88,7 @@ footer {
 }
 footer p {
   color: white;
-  padding: 10px;
+  padding: 1px;
 }
 .mainhome-grid {
   display: grid;
@@ -117,6 +117,12 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   justify-items: center;
+  padding: 5px;
+}
+
+.footer-heading {
+  text-decoration: bold;
+  text-decoration: underline;
 }
 
 img {
@@ -143,6 +149,8 @@ p {
 .explorefooter-grid {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  padding: 15px;
+  grid-gap: 20px;
 }
 
 /*exhibition*/
@@ -174,7 +182,8 @@ h3 {
 
 .eventsfooter-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 4fr;
+  padding: 10px;
 }
 
 /*get involved page*/
@@ -190,6 +199,8 @@ h3 {
 .getinvolved-footer {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 10px;
 }
 
 /*nav location*/
