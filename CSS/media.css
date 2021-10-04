@@ -46,10 +46,9 @@
   .logo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-self: center;
-    width: 200px;
-    height: 200px;
+    width: 20%;
   }
   .footermain-grid {
     display: flex;
